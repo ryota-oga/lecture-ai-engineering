@@ -48,6 +48,6 @@ jobs:
     # - name: Run model tests
     #   run: |
     #     pytest day5/演習3/tests/test_model.py -v
-    - name: Format check with black
+    - name: Run Test with pytest
       run: |
         pytest day5/演習2/main.py -v
