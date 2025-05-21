@@ -11,6 +11,7 @@ import pickle
 import time
 import great_expectations as gx
 
+
 class DataLoader:
     """データロードを行うクラス"""
 
@@ -21,7 +22,8 @@ class DataLoader:
             return pd.read_csv(path)
         else:
             # ローカルのファイル
-            local_path = "data/Titanic.csv"
+            # local_path = "data/Titanic.csv"
+            local_path = "day5/演習2/data/Titanic.csv"
             if os.path.exists(local_path):
                 return pd.read_csv(local_path)
 

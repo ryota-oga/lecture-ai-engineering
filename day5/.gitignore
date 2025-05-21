@@ -1,5 +1,7 @@
 mlruns
 
+# add for venv directory
+day5
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
